@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Quiz Result Details</title>
+    <title>Quiz</title>
 
     <!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex">
@@ -71,7 +71,7 @@
 
 
 
-<body class="layout-app">
+<body class="layout-app ">
 
     <div class="preloader">
         <div class="sk-double-bounce">
@@ -105,13 +105,14 @@
 
                     </span>
 
+                    
                 </a>
 
 
 
 
-
-                <!-- <span class="d-none d-md-flex align-items-center mr-16pt">
+<!-- 
+                <span class="d-none d-md-flex align-items-center mr-16pt">
 
                     <span class="avatar avatar-sm mr-12pt">
 
@@ -123,9 +124,9 @@
                         <strong class="navbar-text-100">Experience IQ</strong>
                         <span class="navbar-text-50">2,300 points</span>
                     </small>
-                </span>
+                </span> -->
 
- -->
+
 
 
                 <!-- <form class="search-form navbar-search d-none d-md-flex mr-16pt" action="compact-index.html">
@@ -138,7 +139,7 @@
 
 
                 <!-- Toggler -->
-                <!-- <a href="student-quiz-result-details.html" class="navbar-toggler navbar-toggler-custom align-items-center justify-content-center d-none d-lg-flex" data-toggle="tooltip" data-title="Switch to Vertical App Layout" data-placement="bottom" data-boundary="window">
+                <!-- <a href="student-quiz-results.html" class="navbar-toggler navbar-toggler-custom align-items-center justify-content-center d-none d-lg-flex" data-toggle="tooltip" data-title="Switch to Vertical App Layout" data-placement="bottom" data-boundary="window">
                     <span class="material-icons">swap_horiz</span>
                 </a> -->
 
@@ -299,101 +300,196 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="navbar navbar-list navbar-light border-bottom navbar-expand-sm" style="white-space: nowrap;">
-                <div class="container page__container">
+            <div class="navbar navbar-light border-0 navbar-expand-sm" style="white-space: nowrap;">
+                <div class="container page__container flex-column flex-sm-row">
                     <nav class="nav navbar-nav">
-                        <div class="nav-item navbar-list__item">
-                            <a href="compact-student-take-course.html" class="nav-link h-auto"><i class="material-icons icon--left">keyboard_backspace</i> Back to Course</a>
-                        </div>
-                        <div class="nav-item navbar-list__item">
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="mr-16pt">
-                                    <a href="compact-student-take-course.html"><img src="assets\images\paths\angular_64x64.png" width="40" alt="Angular" class="rounded"></a>
+                        <div class="nav-item py-16pt py-sm-0">
+                            <div class="media flex-nowrap">
+                                <div class="media-left mr-16pt">
+                                    <a href="student-take-course.html"><img src="assets\images\paths\angular_64x64.png" width="40" alt="Angular" class="rounded"></a>
                                 </div>
-                                <div class="flex">
-                                    <a href="compact-student-take-course.html" class="card-title text-body mb-0">Angular Fundamentals</a>
-                                    <p class="lh-1 d-flex align-items-center mb-0">
+                                <div class="media-body d-flex flex-column">
+                                    <a href="student-take-course.html" class="card-title">Angular Fundamentals</a>
+                                    <div class="d-flex">
                                         <span class="text-50 small font-weight-bold mr-8pt">Elijah Murray</span>
                                         <span class="text-50 small">Software Engineer and Developer</span>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </nav>
-                </div>
-            </div> -->
-            <div class="mdk-box bg-primary mdk-box--bg-gradient-primary2 js-mdk-box mb-0" data-effects="blend-background">
-                <div class="mdk-box__content">
-                    <div class="py-64pt text-center text-sm-left">
-                        <div class="container d-flex flex-column justify-content-center align-items-center">
-                            <p class="lead text-white-50 measure-lead-max mb-0">Submited on 02 Jan 2019</p>
-                            <h1 class="text-white mb-24pt">Your Score: 350</h1>
-                            <a href="compact-student-take-quiz.html" class="btn btn-outline-white">Restart quiz</a>
-                        </div>
-                    </div>
+                    <ul class="nav navbar-nav ml-sm-auto align-items-center align-items-sm-end d-none d-lg-flex">
+                        <li class="nav-item active ml-sm-16pt">
+                            <a href="" class="nav-link">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Notes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Discussions</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="navbar navbar-expand-sm navbar-light navbar-submenu navbar-list p-0 m-0 align-items-center">
+            <div class="bg-primary pb-lg-64pt py-32pt">
+                <div class="container page__container">
+                    <nav class="course-nav">
+                        <a data-toggle="tooltip" data-placement="bottom" data-title="Getting Started with Angular: Introduction" href=""><span class="material-icons">check_circle</span></a>
+                        <a data-toggle="tooltip" data-placement="bottom" data-title="Getting Started with Angular: Introduction to TypeScript" href=""><span class="material-icons text-primary">account_circle</span></a>
+                        <a data-toggle="tooltip" data-placement="bottom" data-title="Getting Started with Angular: Comparing Angular to AngularJS" href=""><span class="material-icons">play_circle_outline</span></a>
+                        <a data-toggle="tooltip" data-placement="bottom" data-title="Quiz: Getting Started with Angular" href="student-take-quiz.html"><span class="material-icons">hourglass_empty</span></a>
+                    </nav>
+                    <div class="js-player bg-primary embed-responsive embed-responsive-16by9 mb-32pt">
+                        <div class="player embed-responsive-item">
+                            <div class="player__content">
+                                <div class="player__image" style="--player-image: url(assets/images/illustration/player.svg)"></div>
+                                <a href="" class="player__play bg-primary">
+                                    <span class="material-icons">play_arrow</span>
+                                </a>
+                            </div>
+                            <div class="player__embed d-none">
+                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97243285?title=0&byline=0&portrait=0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap align-items-end mb-16pt">
+                        <h1 class="text-white flex m-0">Introduction to TypeScript</h1>
+                        <p class="h1 text-white-50 font-weight-light m-0">50:13</p>
+                    </div>
+
+                    <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">JavaScript is now used to power backends, create hybrid mobile applications, architect cloud solutions, design neural networks and even control robots. Enter TypeScript: a superset of JavaScript for scalable, secure, performant and feature-rich applications.</p>
+
+                    <a href="" class="btn btn-white">Resume lesson</a>
+                </div>
+            </div>
+            <div class="navbar navbar-expand-sm navbar-light bg-white border-bottom-2 navbar-list p-0 m-0 align-items-center">
                 <div class="container page__container">
                     <ul class="nav navbar-nav flex align-items-sm-center">
-                        <li class="nav-item navbar-list__item">350/450 Score</li>
+                        <li class="nav-item navbar-list__item">
+                            <div class="media align-items-center">
+                                <span class="media-left mr-16pt">
+                                    <img src="assets\images\people\50\guy-6.jpg" width="40" alt="avatar" class="rounded-circle">
+                                </span>
+                                <div class="media-body">
+                                    <a class="card-title m-0" href="instructor-profile.html">Eddie Bryan</a>
+                                    <p class="text-50 lh-1 mb-0">Instructor</p>
+                                </div>
+                            </div>
+                        </li>
                         <li class="nav-item navbar-list__item">
                             <i class="material-icons text-muted icon--left">schedule</i>
-                            12 minutes
+                            2h 46m
                         </li>
                         <li class="nav-item navbar-list__item">
                             <i class="material-icons text-muted icon--left">assessment</i>
-                            Intermediate
+                            Beginner
+                        </li>
+                        <li class="nav-item ml-sm-auto text-sm-center flex-column navbar-list__item">
+                            <!-- <div class="rating rating-24">
+                                <div class="rating__item"><i class="material-icons">star</i></div>
+                                <div class="rating__item"><i class="material-icons">star</i></div>
+                                <div class="rating__item"><i class="material-icons">star</i></div>
+                                <div class="rating__item"><i class="material-icons">star</i></div>
+                                <div class="rating__item"><i class="material-icons">star_border</i></div>
+                            </div> -->
+                            <!-- <p class="lh-1 mb-0"><small class="text-muted">20 ratings</small></p> -->
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="container page__container">
-                <div class="border-left-2 page-section pl-32pt">
+            <div class="page-section">
+                <div class="container page__container">
 
-                    <div class="d-flex align-items-center page-num-container mb-16pt">
-                        <div class="page-num">2</div>
-                        <h4>Question 2 of 5</h4>
+
+
+                    <div class="d-flex align-items-center mb-heading">
+                        <h4 class="m-0">Discussions</h4>
+                        <a href="discussions-ask.html" class="text-underline ml-auto">Ask a Question</a>
                     </div>
 
-                    <p class="text-70 measure-lead mb-32pt mb-lg-48pt">An angular 2 project written in typescript is* transpiled to javascript duri*ng the build process. Which of the following additional features are provided to the developer while programming on typescript over javascript?</p>
+                    <div class="border-top">
 
-                    <ul class="list-quiz">
-                        <li class="list-quiz-item">
-                            <span class="list-quiz-badge">A</span>
-                            <span class="list-quiz-text">Ability to use newer syntax and offers reliability</span>
-                        </li>
-                        <li class="list-quiz-item active">
-                            <span class="list-quiz-badge bg-primary text-white"><i class="material-icons">check</i></span>
-                            <span class="list-quiz-text">Compatibility</span>
-                        </li>
-                        <li class="list-quiz-item">
-                            <span class="list-quiz-badge">C</span>
-                            <span class="list-quiz-text">Usage of missing features</span>
-                        </li>
-                    </ul>
+                        <div class="list-group list-group-flush">
+
+                            <div class="list-group-item p-3">
+                                <div class="row align-items-start">
+                                    <div class="col-md-3 mb-8pt mb-md-0">
+                                        <div class="media align-items-center">
+                                            <div class="media-left mr-12pt">
+                                                <a href="" class="avatar avatar-sm">
+                                                    <!-- <img src="LB" alt="avatar" class="avatar-img rounded-circle"> -->
+                                                    <span class="avatar-title rounded-circle">LB</span>
+                                                </a>
+                                            </div>
+                                            <div class="d-flex flex-column media-body media-middle">
+                                                <a href="" class="card-title">Laza Bogdan</a>
+                                                <small class="text-muted">2 days ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-8pt mb-md-0">
+                                        <p class="mb-8pt"><a href="discussion.html" class="text-body"><strong>Using Angular HttpClientModule instead of HttpModule</strong></a></p>
+
+
+                                        <a href="discussion.html" class="chip chip-outline-secondary">Angular fundamentals</a>
+
+
+                                    </div>
+                                    <div class="col-auto d-flex flex-column align-items-center justify-content-center">
+                                        <h5 class="m-0">1</h5>
+                                        <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-group-item p-3">
+                                <div class="row align-items-start">
+                                    <div class="col-md-3 mb-8pt mb-md-0">
+                                        <div class="media align-items-center">
+                                            <div class="media-left mr-12pt">
+                                                <a href="" class="avatar avatar-sm">
+                                                    <!-- <img src="AC" alt="avatar" class="avatar-img rounded-circle"> -->
+                                                    <span class="avatar-title rounded-circle">AC</span>
+                                                </a>
+                                            </div>
+                                            <div class="d-flex flex-column media-body media-middle">
+                                                <a href="" class="card-title">Adam Curtis</a>
+                                                <small class="text-muted">3 days ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-8pt mb-md-0">
+                                        <p class="mb-0"><a href="discussion.html" class="text-body"><strong>Why am I getting an error when trying to install angular/http@2.4.2</strong></a></p>
+
+                                    </div>
+                                    <div class="col-auto d-flex flex-column align-items-center justify-content-center">
+                                        <h5 class="m-0">1</h5>
+                                        <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a href="discussions.html" class="btn btn-outline-secondary">See all discussions for this lesson</a>
 
                 </div>
             </div>
+
+
 
 
 
         </div>
         <!-- // END drawer-layout__content -->
+
 
 
 
@@ -492,12 +588,12 @@
                                 <span class="sidebar-menu-badge badge badge-accent badge-notifications ml-auto">PRO</span>
                             </a>
                         </li> -->
-                        <li class="sidebar-menu-item">
+                        <li class="sidebar-menu-item  active">
                             <a class="sidebar-menu-button" href="student-take-lesson.html">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">import_contacts</span>
                                 <span class="sidebar-menu-text">Take Lesson</span>
                             </a>
-                        </li>
+                        </li> 
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" href="student-take-quiz.html">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">dvr</span>
@@ -510,7 +606,7 @@
                                 <span class="sidebar-menu-text">My Quizzes</span>
                             </a>
                         </li>
-                        <li class="sidebar-menu-item active">
+                        <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" href="student-quiz-result-details.html">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">live_help</span>
                                 <span class="sidebar-menu-text">Quiz Result</span>
@@ -551,7 +647,6 @@
                     <div class="sidebar-heading">Account</div>
                     <ul class="sidebar-menu">
 
-
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" href="edit-account-profile.html">
                                 <!-- <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span> -->
@@ -565,6 +660,18 @@
                             </a>
                         </li>
                         <!-- <li class="sidebar-menu-item">
+                            <a class="sidebar-menu-button" href="instructor-dashboard.html">
+                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
+                                <span class="sidebar-menu-text">Instructor Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
+                            <a class="sidebar-menu-button" href="instructor-courses.html">
+                                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">import_contacts</span>
+                                <span class="sidebar-menu-text">Manage Courses</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" href="instructor-quizzes.html">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">help</span>
                                 <span class="sidebar-menu-text">Manage Quizzes</span>
@@ -608,7 +715,7 @@
 
 
 
-                    <!-- <div class="sidebar-heading">Applications</div>
+                    <!-- <div class="sidebar-heading">Applications</div> 
                     <ul class="sidebar-menu">
 
                         <li class="sidebar-menu-item">
@@ -652,8 +759,8 @@
                                     <a class="sidebar-menu-button disabled" href="departments.html">
                                         <span class="sidebar-menu-text">Departments</span>
                                     </a>
-                                </li> -->
-                                <!-- <li class="sidebar-menu-item"> 
+                                </li>
+                                 <li class="sidebar-menu-item">
   <a class="sidebar-menu-button disabled" href="documents.html">
     <span class="sidebar-menu-text">Documents</span>
   </a>
@@ -692,8 +799,8 @@
   <a class="sidebar-menu-button disabled" href="inventory.html">
     <span class="sidebar-menu-text">Inventory</span>
   </a>
-</li> -->
-                            <!-- </ul>
+</li> 
+                            </ul>
                         </li>
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" data-toggle="collapse" href="#productivity_menu">
@@ -722,7 +829,7 @@
                                         <span class="sidebar-menu-text">Kanban</span>
                                     </a>
                                 </li>
-                                 <li class="sidebar-menu-item">
+                                <!-- <li class="sidebar-menu-item">
   <a class="sidebar-menu-button disabled" href="task-details.html">
     <span class="sidebar-menu-text">Task Details</span>
   </a>
@@ -731,8 +838,8 @@
   <a class="sidebar-menu-button disabled" href="team-members.html">
     <span class="sidebar-menu-text">Team Members</span>
   </a>
-</li> 
-                            </ul>
+</li> -->
+                            <!-- </ul>
                         </li>
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" data-toggle="collapse" href="#ecommerce_menu">
@@ -1100,44 +1207,44 @@
                             </a>
                             <ul class="sidebar-submenu collapse sm-indent" id="layouts_menu">
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="compact-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="compact-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Compact</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="mini-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Mini</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-secondary-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="mini-secondary-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Mini + Secondary</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item active">
-                                    <a class="sidebar-menu-button" href="student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="student-take-quiz.html">
                                         <span class="sidebar-menu-text">App</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="boxed-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="boxed-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Boxed</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="sticky-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="sticky-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Sticky</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="fixed-student-quiz-result-details.html">
+                                    <a class="sidebar-menu-button" href="fixed-student-take-quiz.html">
                                         <span class="sidebar-menu-text">Fixed</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                     </ul> -->
-
+ 
 
 
                 </div>
