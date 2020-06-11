@@ -313,7 +313,7 @@
                     <div class="flex d-flex flex-column flex-sm-row align-items-center mb-24pt mb-md-0">
 
                         <div class="mb-24pt mb-sm-0 mr-sm-24pt">
-                            <h2 class="mb-0">My Attendance</h2>
+                            <h2 class="mb-0">Attendance</h2>
 
 
                         </div>
@@ -333,22 +333,55 @@
 
             <div class="container page__container">
                 <div class="page-section">
+                    <!-- <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <h5>Name:Abhishek luthra</h4>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <h5>Roll No.:23123123</h4>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <h5>Course:BTech.[CS]</h4>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <h5>Sem:4</h4>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <form action="./student-my-attendance.html">
+                        <label for="course"
+                            style="margin-bottom: 0.5rem;font-family: Exo\ 2,Helvetica Neue,Arial,sans-serif;font-weight: 600;font-size: 1rem;line-height: 1.5;color: #303956;margin-right:1rem;padding-left:24px">CHOOSE
+                            COURSE:</label>
+                        <div style="padding-left:24px">
+                            <select id="" name="course" class="custom-select">
+                                <option selected="">Open this select menu</option>
+                                <option value="data structures">Data Structures(CSB 102)</option>
+                                <option value="professional communication">Professional Communication(HMB 102)</option>
+                                <option value="quantum physics">Quantum Physics(PHL 102)</option>
+                            </select>
+                        </div>
+                        <div style="padding-left:24px;padding-top:10px">
+                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                        </div>
+                    </form> -->
+
+
                     <div class="card mb-lg-32pt">
-                        <div class="table-responsive">
+                        <div class="table-responsive" style="height:400px;">
                              <!-- data-toggle="lists"
                             data-lists-sort-by="js-lists-values-date" data-lists-sort-desc="true"
                             data-lists-values='["js-lists-values-date"]' -->
                             <table class="table mb-0 thead-border-top-0 table-nowrap">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10px;">Sr. No.</th>
-                                        <th style="width:100px;" class="pr-0">
-                                            course name
+                                        <th style="width:1%;">Sr. No.</th>
+                                        <th style="width: 120px;" >
+                                            date
                                             <!-- href="javascript:void(0)" class="sort" data-sort="js-lists-values-date" -->
                                         </th>
-                                        <th style="width:50px;">theory(%)</th>
-                                        <th style="width:50px;">lab(%)</th>
-                                        <th style="width: 24px;"></th>
+                                        <th style="width:120px;">status</th>
+                                        <!-- <th style="width: 24px;"></th> -->
                                     </tr>
                                 </thead>
                                 <tbody class="list">
@@ -357,14 +390,12 @@
                                             <small>1</small>
                                         </td>
                                         <td>
-                                            <small>Data Structures(CSB 102)</small>
+                                            <small class="js-lists-values-date">19/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>88.6</small></a>
+                                            <small class="js-lists-values-date">Present</small>
                                         </td>
-                                        <td>
-                                            <a href=".\student-check-attendance.html"><small>75</small></a>
-                                        </td>
+
                                     </tr>
 
                                     <tr>
@@ -377,13 +408,10 @@
                                         </td>
 
                                         <td>
-                                            <small>Professional Communication(HMB 102)</small>
+                                            <small class="js-lists-values-date">20/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>92.5</small></a>
-                                        </td>
-                                        <td>
-                                            <a href=".\student-check-attendance.html"><small>78.6</small></a>
+                                            <small class="js-lists-values-date ">Present</small>
                                         </td>
 
                                     </tr>
@@ -396,13 +424,10 @@
                                             <small >3</small>
                                         </td>
                                         <td>
-                                            <small>Quantum Physics(PHL 102)</small>
+                                            <small class="js-lists-values-date ">21/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>88.6</small></a>
-                                        </td>
-                                        <td>
-                                            <!-- <a href=".\student-check-attendance.html"><small>75</small></a> -->
+                                            <small class="js-lists-values-date">Present</small>
                                         </td>
                                     </tr>
 
@@ -411,13 +436,10 @@
                                             <small >4</small>
                                         </td>
                                         <td>
-                                            <small>ieee (eee 102)</small>
+                                            <small class="js-lists-values-date ">22/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>88.6</small></a>
-                                        </td>
-                                        <td>
-                                            <a href=".\student-check-attendance.html"><small>75</small></a>
+                                            <small class="js-lists-values-date">Present</small>
                                         </td>
                                     </tr>
                                     <tr>
@@ -425,13 +447,10 @@
                                             <small >5</small>
                                         </td>
                                         <td>
-                                            <small>linear algebra (mal 151)</small>
+                                            <small class="js-lists-values-date ">23/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>88.6</small></a>
-                                        </td>
-                                        <td>
-                                            <!-- <a href=".\student-check-attendance.html"><small>75</small></a> -->
+                                            <small class="js-lists-values-date ">Present</small>
                                         </td>
                                     </tr>
                                     <tr>
@@ -439,35 +458,96 @@
                                             <small >6</small>
                                         </td>
                                         <td>
-                                            <small>Enviromental studies (mel 102)</small>
+                                            <small class="js-lists-values-date">24/04/2020</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>88.6</small></a>
-                                        </td>
-                                        <td>
-                                            <!-- <a href=".\student-check-attendance.html"><small>75</small></a> -->
+                                            <small class="js-lists-values-date">Absent</small>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <small>7</small>
+                                            <small>8</small>
                                         </td>
                                         <td>
-                                            <small>Physics (PHL 101)</small>
+                                            <small class="js-lists-values-date">25/04/2020</small>
                                         </td>
                                         <td>
-                                            <!-- <a href=".\student-check-attendance.html"><small>88.6</small></a> -->
+                                            <small class="js-lists-values-date">Present</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>8</small>
                                         </td>
                                         <td>
-                                            <a href=".\student-check-attendance.html"><small>75</small></a>
+                                            <small class="js-lists-values-date">26/04/2020</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">Present</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>9</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">28/04/2020</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">Present</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>10</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">29/04/2020</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">Absent</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>11</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">30/04/2020</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">Present</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>12</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">01/05/2020</small>
+                                        </td>
+                                        <td>
+                                            <small class="js-lists-values-date">Present</small>
                                         </td>
                                     </tr>
 
                                 </tbody>
                             </table>
                         </div>
+                        <div class="card-footer p-8pt">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <small>Total:12 </small>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6">
+                                        <small>Total Present:10</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- -------------------------------------------------------------------- -->
+
                 </div>
             </div>
 
@@ -491,6 +571,7 @@
                     </div>
 
 
+
                     <a href="index.html" class="sidebar-brand ">
                         
                         <span class="h-auto">
@@ -504,6 +585,7 @@
 
 
 
+
                     <div class="sidebar-heading">Student</div>
                     <ul class="sidebar-menu">
 
@@ -514,7 +596,6 @@
                                 <span class="sidebar-menu-text">Student Dashboard</span>
                             </a>
                         </li>
-
                         <li class="sidebar-menu-item">
                             <a class="sidebar-menu-button" href="student-timetable.html">
                                 <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">today</span>
@@ -608,6 +689,15 @@
 
                 <!-- App JS -->
                 <script src="assets\js\app.js"></script>
+
+
+                <!-- List.js -->
+                <script src="assets\vendor\list.min.js"></script>
+                <script src="assets\js\list.js"></script>
+
+                <!-- Tables -->
+                <script src="assets\js\toggle-check-all.js"></script>
+                <script src="assets\js\check-selected-row.js"></script>
 
 
 
