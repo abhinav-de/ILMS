@@ -5646,10 +5646,18 @@
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
+  .card {
+    padding-bottom: 30px;
+    border: none;
+    height: 100%;
+    background-color: initial;
+  }
   [dir="ltr"] .card-body {
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1rem;
+    padding: 15px 30px 30px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(229, 229, 229, 0.75);
+  box-shadow: 0px 10px 20px 0px rgba(229, 229, 229, 0.75);
   }
   [dir="ltr"] .card-title {
     margin-bottom: 1rem;
@@ -27110,3 +27118,139 @@
     margin-right: 10%;
     margin-bottom: 5%;
   }
+  .font-medium {
+    font-weight: 500;
+  }
+  .text-dark-medium {
+    color: #111111;
+  }
+  .heading-layout1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 12px;
+  }
+  .heading-layout1 .item-title h3 {
+    color: #111111;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .heading-layout1 .dropdown .dropdown-toggle {
+    color: #bcbcbc;
+    font-size: 36px;
+    display: inline-block;
+    line-height: 1;
+    padding-bottom: 15px;
+    position: relative;
+    right: -10px;
+  }
+  .heading-layout1 .dropdown .dropdown-toggle:after {
+    border: none;
+  }
+  .heading-layout1 .dropdown .dropdown-menu {
+    border: none;
+    padding: 15px 0 18px;
+  }
+  .heading-layout1 .dropdown .dropdown-menu .dropdown-item {
+    font-size: 15px;
+    padding: 7px 20px;
+  }
+  .heading-layout1 .dropdown .dropdown-menu .dropdown-item i {
+    margin-right: 14px;
+    width: 22px;
+  }
+  .font-medium {
+    font-weight: 500;
+  }
+  .single-info-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  @media only screen and (max-width: 1199px) {
+    .single-info-details {
+      display: block;
+    }
+  }
+  .single-info-details .item-img {
+    margin-right: 40px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .single-info-details .item-img {
+      margin: 0 0 40px 0;
+      text-align: center;
+    }
+  }
+  .single-info-details .item-content {
+    flex: 1;
+    color: #111111;
+  }
+  @media only screen and (max-width: 575px) {
+    .single-info-details .item-content .item-header {
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .single-info-details .item-content .item-header .header-elements {
+      margin-bottom: 15px;
+    }
+  }
+  .single-info-details .item-content .item-header .header-elements ul li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .single-info-details .item-content .item-header .header-elements ul li:last-child {
+    margin-right: 0;
+  }
+  .single-info-details .item-content .item-header .header-elements ul li a {
+    display: block;
+    background-color: #f0f1f3;
+    border-radius: 4px;
+    color: #646464;
+    font-size: 14px;
+    padding: 7px 12px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .single-info-details .item-content .item-header .header-elements ul li a:hover {
+    background-color: #ff9d01;
+    color: #fff;
+  }
+  .single-info-details .item-content p {
+    width: 75%;
+    font-size: 1rem;
+  }
+  @media only screen and (max-width: 1499px) {
+    .single-info-details .item-content p {
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .single-info-details .item-content p {
+      width: 100%;
+    }
+  }
+  .single-info-details .item-content .info-table .table {
+    width: 50%;
+  }
+  @media only screen and (max-width: 1499px) {
+    .single-info-details .item-content .info-table .table {
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .single-info-details .item-content .info-table .table {
+      width: 100%;
+    }
+  }
+  .single-info-details .item-content .info-table .table tr td {
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  

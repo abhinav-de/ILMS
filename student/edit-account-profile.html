@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
@@ -34,7 +34,7 @@
     <link type="text/css" href="assets\css\a.css" rel="stylesheet">
 
     <!-- Bootstrap Css -->
-    <link href="assets\css\bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+    <!-- <link href="assets\css\bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css"> -->
     
 </head>
 
@@ -359,52 +359,110 @@
 
             <div class="page-section container page__container">
                 <div class="page-separator">
-                    <div class="page-separator__text">Profile &amp; Privacy</div>
+                    <div class="page-separator__text">Profile</div>
                 </div>
-                <div class="col-md-7 p-0">
-                    <div class="form-group">
-                        <label class="form-label">Your photo</label>
-                        <div class="media align-items-center">
-                            <a href="" class="media-left mr-16pt">
-                                <img src="assets\images\people\110\guy-3.jpg" alt="people" width="56" class="rounded-circle">
-                            </a>
-                            <div class="media-body">
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <!-- <h3 style="font-weight: 600;">About Me</h3> -->
+                            </div>
+                           <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" 
+                                data-toggle="dropdown" aria-expanded="false">...</a>
+        
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <!-- <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a> -->
+                                    <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-info-details">
+                            <div class="item-img">
+                                <img width="280"  src="assets\images\people\50\guy-3.jpg" alt="student-picture">
+                            </div>
+                            <div class="item-content">
+                                <div class="header-inline item-header">
+                                    <h3 class="text-dark-medium font-medium" style="color: #111111;font-weight: 600;">Virat</h3>
+                                    <div class="header-elements">
+                                        <!-- <ul>
+                                            <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-print"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-download"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                                <p>Aliquam erat volutpat. Curabiene natis massa sedde lacu stiquen sodale 
+                                word moun taiery.Aliquam erat volutpaturabiene natis massa sedde  sodale 
+                                word moun taiery.</p>
+                                <div class="info-table table-responsive">
+                                    <table class="table text-nowrap">
+                                        <tbody>
+                                            <tr>
+                                                <td>Name:</td>
+                                                <td class="font-medium text-dark-medium">Virat</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gender:</td>
+                                                <td class="font-medium text-dark-medium">Male</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Father Name:</td>
+                                                <td class="font-medium text-dark-medium">Ranveer</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mother Name:</td>
+                                                <td class="font-medium text-dark-medium">Anushka</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Date Of Birth:</td>
+                                                <td class="font-medium text-dark-medium">07.08.2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Religion:</td>
+                                                <td class="font-medium text-dark-medium">Hindu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Father Occupation:</td>
+                                                <td class="font-medium text-dark-medium">Graphic Designer</td>
+                                            </tr>
+                                            <tr>
+                                                <td>E-mail:</td>
+                                                <td class="font-medium text-dark-medium">virat@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admission Date:</td>
+                                                <td class="font-medium text-dark-medium">07.08.2019</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Course:</td>
+                                                <td class="font-medium text-dark-medium">BTech.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Stream:</td>
+                                                <td class="font-medium text-dark-medium">CSE</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Roll:</td>
+                                                <td class="font-medium text-dark-medium">2312312</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Address:</td>
+                                                <td class="font-medium text-dark-medium">House #10, Road #6, India</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Phone:</td>
+                                                <td class="font-medium text-dark-medium">+91 0123456789</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="form-group">
-                        <label class="form-label">profile name</label>
-                        <input type="text" class="form-control" value="virat" placeholder="Your profile name ...">
-                        <small class="form-text text-muted">Your profile name will be used as part of your public profile URL address.</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">About you</label>
-                        <textarea rows="3" class="form-control" placeholder="About you ..."></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" checked="" id="customCheck1">
-                            <label class="custom-control-label" for="customCheck1">Display your real name on your profile</label>
-                            <small class="form-text text-muted">If unchecked, your profile name will be displayed instead of your full name.</small>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" checked="" id="customCheck2">
-                            <label class="custom-control-label" for="customCheck2">Allow everyone to see your profile</label>
-                            <small class="form-text text-muted">If unchecked, your profile will be private and no one except you will be able to view it.</small>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
                 </div>
+                
             </div>
         </div>
         <!-- // END drawer-layout__content -->
@@ -567,7 +625,7 @@
                         <li class="sidebar-menu-item active">
                             <a class="sidebar-menu-button" href="edit-account-profile.html">
                                 <!-- <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span> -->
-                                <span class="sidebar-menu-text">Profile & Privacy</span>
+                                <span class="sidebar-menu-text">Profile</span>
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
