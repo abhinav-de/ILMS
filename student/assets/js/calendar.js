@@ -99,9 +99,8 @@ function showCalendar(month, year) {
               }
               // console.log(today.getMonth());
               if ( date === 20 && year === 2020 && month === 5 ) {
-                cell.className = "date-picker green ";
+                cell.className = "date-picker red ";
               }
-
               if ( date === 19 && year === 2020 && month === 5 ) {
                 cell.className = "date-picker green ";
               }
@@ -109,8 +108,95 @@ function showCalendar(month, year) {
               if ( date === 18 && year === 2020 && month === 5 ) {
                 cell.className = "date-picker green ";
               }
+              if ( date === 14 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+              if ( date === 15 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 16 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker yellow ";
+              }
+              if ( date === 17 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+
+              if ( date === 13 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+              if ( date === 12 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 11 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker yellow ";
+              }
+              if ( date === 10 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 9 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 8 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 7 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+
+              if ( date === 6 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+              if ( date === 5 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 4 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date ===3 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker yellow ";
+              }
+              if ( date === 2 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 1 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              
+              if ( date === 27 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+              if ( date === 26 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 25 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker yellow ";
+              }
+              if ( date === 24 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 23 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 22 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 21 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+              
+              if ( date === 30 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 29 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker green ";
+              }
+              if ( date === 28 && year === 2020 && month === 5 ) {
+                cell.className = "date-picker red ";
+              }
+
               row.appendChild(cell);
               date++;
+              
           }
 
 
